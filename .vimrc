@@ -34,6 +34,16 @@ NeoBundleLazy 'osyo-manga/vim-marching', {
 			\ 'autoload' : {'filetypes' : ['c','cpp']}
 			\ }
 NeoBundle 'thinca/vim-quickrun'
+NeoBundleLazy 'marcus/rsense', {
+			\ 'autoload' : {
+			\ 'filetypes' : 'ruby',
+			\ },
+			\ }
+NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', {
+			\ 'depends' : ['Shougo/neocomplete.vim', 'marcus/rsense'],
+			\ 'autoload' : {'filetypes' : 'ruby',
+			\ }
+			\ }
 call neobundle#end()
 
 " Required:
