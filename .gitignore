@@ -1,0 +1,3 @@
+# neobundleの機能によって追加されるファイルはリポジトリに含めない
+!bundle/neobundle.vim/
+bundle/
