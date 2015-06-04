@@ -1,11 +1,13 @@
 "" this file manages configuration of apperances
 
-colorscheme desert
+"colorscheme desert
+colorscheme molokai
 syntax on
+highlight Normal ctermbg=none
 
 " emphasis current line
 set cursorline
-" highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
+"highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
 highlight CursorLine cterm=NONE ctermbg=0
 
 " print column number

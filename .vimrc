@@ -44,6 +44,8 @@ NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', {
 			\ 'autoload' : {'filetypes' : 'ruby',
 			\ }
 			\ }
+NeoBundle 'tomasr/molokai'
+
 call neobundle#end()
 
 " Required:
