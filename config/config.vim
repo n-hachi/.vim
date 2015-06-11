@@ -13,3 +13,13 @@ set hlsearch
 
 " using matchit 
 runtime macros/matchit.vim
+
+" not generate swp file
+set noswapfile
+
+" exchange key maps between logical and graphical lines
+nnoremap j gj
+nnoremap k gk
+nnoremap gj j
+nnoremap gk k
+
