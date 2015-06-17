@@ -1,7 +1,7 @@
 " plugin management
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-" 
+"
 NeoBundle 'Shougo/unite.vim'
 
 " asynchronous execution
@@ -26,7 +26,7 @@ NeoBundle 'Shougo/neosnippet.vim' , {
 " git wrapper
 NeoBundle 'tpope/vim-fugitive' , {
 	\ 'lazy' : 0,
-	\ } 
+	\ }
 
 " colorschemes
 NeoBundle 'flazz/vim-colorschemes'
@@ -62,3 +62,6 @@ NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', {
 			\ 'autoload' : {'filetypes' : 'ruby',
 			\ }
 			\ }
+
+" visualize the end of line blank
+NeoBundle 'bronson/vim-trailing-whitespace'
