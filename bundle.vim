@@ -66,3 +66,10 @@ NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', {
 
 " visualize the end of line blank
 NeoBundle 'bronson/vim-trailing-whitespace'
+
+" show indwnt
+if has('conceal')
+  NeoBundleLazy 'Yggdroot/indentLine', { 'autoload' : {
+        \   'commands' : ['IndentLinesReset', 'IndentLinesToggle'],
+        \ }}
+endif
