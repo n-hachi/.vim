@@ -25,4 +25,5 @@ call neobundle#end()
 
 " add selfmade script
 runtime! config/*.vim
+runtime! ftplugin/*.vim
 runtime! local/*.vim

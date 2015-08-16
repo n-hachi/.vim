@@ -42,9 +42,17 @@ NeoBundle 'Shougo/vimshell' , {
 	\ }
 
 " c/c++ completation with clang
-NeoBundleLazy 'osyo-manga/vim-marching', {
-			\ 'depends' : ['Shougo/vimproc.vim'],
-			\ 'autoload' : {'filetypes' : ['c','cpp']}
+"NeoBundleLazy 'osyo-manga/vim-marching', {
+"			\ 'depends' : ['Shougo/vimproc.vim'],
+"			\ 'autoload' : {'filetypes' : ['c','cpp']}
+"			\ }
+
+NeoBundleLazy 'Rip-Rip/clang_complete', {
+			\ 'autoload' : {'filetypes' : ['c', 'cpp']}
+			\ }
+
+NeoBundleLazy 'vim-jp/cpp-vim', {
+			\ 'autoload' : {'filetypes' : 'cpp'}
 			\ }
 
 " execute command quickly
