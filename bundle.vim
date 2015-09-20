@@ -72,6 +72,20 @@ NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', {
 			\ }
 			\ }
 
+" for ruby
+NeoBundle 'vim-ruby/vim-ruby', {
+			\ 'autoload' : {
+			\ 'filetypes' : 'ruby',
+			\ },
+			\ }
+
+" insert 'end' automatically
+NeoBundle 'tpope/vim-endwise', {
+			\ 'autoload' : {
+			\ 'filetypes' : 'ruby',
+			\ },
+			\ }
+
 " visualize the end of line blank
 NeoBundle 'bronson/vim-trailing-whitespace'
 
