@@ -1,8 +1,7 @@
 "" this file manages configuration of apperances
 
-"colorscheme desert
 syntax on
-colorscheme desert
+colorscheme hybrid
 set background=dark
 
 " print column number
@@ -26,10 +25,9 @@ augroup END
 "highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
 highlight clear CursorLine
 highlight CursorLine gui=underline
-highlight CursorLine ctermbg=black guibg=black
-
+highlight CursorLine ctermbg=none guibg=black
+highlight Normal ctermbg=none
 " status line
 set statusline=%F%m%r%h%w\%=[TYPE=%Y]\[FORMAT=%{&ff}]\[ENC=%{&fileencoding}]\[LOW=%l/%L]
 set laststatus=2
-
 
