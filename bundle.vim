@@ -55,6 +55,10 @@ NeoBundleLazy 'vim-jp/cpp-vim', {
 			\ 'autoload' : {'filetypes' : 'cpp'}
 			\ }
 
+NeoBundleLazy 'lyuts/vim-rtags', {
+			\ 'autoload' : {'filetypes' : 'cpp'}
+			\ }
+
 " execute command quickly
 NeoBundle 'thinca/vim-quickrun'
 
